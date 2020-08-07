@@ -1,6 +1,6 @@
 [![](./Truy%20Xuất%20Nguồn%20Gốc%20Gạo%20Cỏ%20May_files/logo.png)](https://gaocomay.com/default)
 
-![](home-banner.jpg)
+![](./home-banner.jpg)
 
  
 
@@ -46,4 +46,4 @@ HCM: 34 - 35 Bến Vân Đồn, Phường 12, Quận 4, Tp. HCM
 
 CSKH: [090 1533 799](tel:0901533799) | Sales: [0938 338 651](tel:0938338651)
 
-Website: [aicallcenter.vn](websiteto:aicallcenter.vn)
+Website: [aicallcenter.vn](aicallcenter.vn)
