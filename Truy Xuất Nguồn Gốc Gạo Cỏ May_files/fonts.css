@@ -1,0 +1,50 @@
+@font-face {
+	font-family: "Lobster-Regular";
+	src: url("../fonts/Lobster-Regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ThirstySoftRegular-Bold";
+	src: url("../fonts/ThirstySoftRegular-Bold.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica";
+	src: url("../fonts/Helvetica.dfont");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SFUHelveticaBold";
+	src: url("../fonts/SFUHelveticaBold.TTF");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SFUHelveticaRegular";
+	src: url("../fonts/SFUHelveticaRegular.TTF");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-mishka {
+	font-family: "Lobster-Regular";
+}
+
+.font-helvetica {
+	font-family: "Helvetica";
+}
+
+.font-SFUHelvetica-Bold {
+	font-family: "SFUHelveticaBold";
+}
+
+.font-SFUHelvetica-Regular {
+	font-family: "SFUHelveticaRegular";
+}

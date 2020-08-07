@@ -1,0 +1,9 @@
+var name = document.getElementById("cmrice_name");
+var content = window["cmrice_content"];
+
+$.get(API_INFO, function(data, status) {
+  if (status === "success") {
+    $("#cmrice_name").html(data.name);
+    $("#cmrice_content").html(data.content);
+  }
+});

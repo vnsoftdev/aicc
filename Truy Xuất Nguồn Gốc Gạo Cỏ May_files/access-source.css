@@ -1,0 +1,179 @@
+.__header {
+	position: relative;
+}
+.__header::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #0000004d;
+}
+
+.__header a {
+	position: absolute;
+	background-color: white;
+	width: 30px;
+	right: 5%;
+	top: 5%;
+}
+
+.access-source-section {
+	position: relative;
+}
+
+.floated-img-up {
+	position: absolute;
+	width: 200px;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -76%);
+}
+
+.__logo {
+	width: 100px;
+}
+.__cmrice_name {
+	position: relative;
+	font-size: 80px;
+	margin-bottom: 40px;
+	color: #e6a407;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.__cmrice_name:before {
+	position: absolute;
+	content: "";
+	width: 95px;
+	height: 121px;
+	left: -62px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: url(../images/resource/title-img-1.png) left top no-repeat;
+}
+
+.soure-content iframe {
+	width: 100%;
+}
+
+.soure-content table th {
+	padding: 0.3rem;
+	width: 90px;
+}
+.soure-content table td {
+	padding: 0.3rem;
+}
+
+.__cmrice_content .__img-product {
+	object-fit: fill;
+}
+
+.__detail-content img {
+	width: 100% !important;
+	object-fit: contain;
+}
+
+.nutrition img {
+	width: auto;
+	object-fit: contain;
+}
+
+.__cmrice_content_detail {
+	text-align: justify;
+}
+
+.__cmrice_product_info {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.__cmrice_product_info img {
+	max-height: 300px;
+	object-fit: contain;
+}
+
+.__cmrice_product_commitment {
+	padding: 30px 0 70px 0;
+	background-image: url(../images/about/2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.__cmrice_product_commitment p {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: normal;
+	text-align: left;
+}
+.__cmrice_product_commitment .flaticon-check-symbol {
+	color: white;
+	margin-right: 15px;
+	font-size: 40px;
+}
+
+.soure-title {
+	font-family: "ThirstySoftRegular-Bold";
+	color: #ffc000;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+._bg_highlight {
+	background: #f1f1f1;
+}
+
+.cerfiticates {
+	display: flex;
+	justify-content: center;
+}
+
+.cerfiticates > div {
+	padding: 1rem;
+	width: 130px;
+}
+.cerfiticates img {
+	max-width: 85px;
+}
+.cm-sign {
+	margin-left: 5px;
+	width: 80px;
+}
+
+.company-info * {
+	font-weight: 500 !important;
+}
+.company-info p {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+/* When show in mobile */
+@media only screen and (max-width: 600px) {
+	.access-source-section .floated-img-up {
+		display: none;
+	}
+	.__cmrice_content .background-primary .col-md-4 {
+		margin: 10px 0;
+	}
+
+	.__cmrice_content .__img-product {
+		object-fit: cover;
+		height: 500px !important;
+		transform: translateY(0);
+	}
+	.__cmrice_product_commitment {
+		background-position: bottom;
+		background-size: contain;
+	}
+
+	.__cmrice_name {
+		font-size: 40px;
+	}
+
+	.soure-title {
+		font-size: 25px;
+	}
+}
