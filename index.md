@@ -1,6 +1,6 @@
 [![](./Truy%20Xuất%20Nguồn%20Gốc%20Gạo%20Cỏ%20May_files/logo.png)](https://gaocomay.com/default)
 
-![](./Truy%20Xuất%20Nguồn%20Gốc%20Gạo%20Cỏ%20May_files/20200707043310-Long%20Châu%2066%20Lúa%20Tôm_1kg_3.jpg)
+![](home-banner.jpg)
 
  
 
